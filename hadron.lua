@@ -28,6 +28,7 @@ inv_input = math.floor(c % 100 / 10)
 inv_dump = math.floor(c % 10)
 -- operating hadron
 while true do
+  os.execute('clear')
   print('Checking items in input')
   -- check inputs
   items = {}
