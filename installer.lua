@@ -1,0 +1,6 @@
+os.execute('wget https://raw.githubusercontent.com/MCNaOtlichnoYT/NTM_Collider_Control/refs/heads/main/hadron.lua hadron.lua')
+os.execute('wget https://raw.githubusercontent.com/MCNaOtlichnoYT/NTM_Collider_Control/refs/heads/main/hadronconfig.lua hadronconfig.lua')
+os.execute('wget https://raw.githubusercontent.com/MCNaOtlichnoYT/NTM_Collider_Control/refs/heads/main/autorun.txt .shrc')
+os.execute('hadronconfig.lua')
+os.execute('rm installer.lua')
+os.execute('reboot')
