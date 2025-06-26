@@ -1,3 +1,6 @@
+os.execute('rm hadron.lua -f')
+os.execute('rm hadronconfig.lua -f')
+os.execute()
 os.execute('wget https://raw.githubusercontent.com/MCNaOtlichnoYT/NTM_Collider_Control/refs/heads/main/hadron.lua hadron.lua')
 os.execute('wget https://raw.githubusercontent.com/MCNaOtlichnoYT/NTM_Collider_Control/refs/heads/main/hadronconfig.lua hadronconfig.lua')
 os.execute('rm installer.lua')
