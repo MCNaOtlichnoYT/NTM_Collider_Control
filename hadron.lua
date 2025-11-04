@@ -71,7 +71,7 @@ while true do
           transposer.transferItem(inv_input, inv_dump, 1, rslot)
           os.sleep(times[set_power])
           break
-        else
+        elseif iname == item_left then
           -- need item from other slot
           for i2slot, i2data in pairs(items) do
             if i2slot ~= islot and i2data['id'] == item_left then
